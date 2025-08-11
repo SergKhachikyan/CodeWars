@@ -145,3 +145,101 @@
 
 # def hex_to_dec(s):
 #     return int(s,16)
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# def sp_eng(sentence):
+#     return "english" in sentence.lower()
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# text = 'dsad'
+# print(text.capitalize())
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# def parse_float(string):
+#     try:
+#         return float(string)
+#     except:
+#         return None
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# def array_plus_array(arr1,arr2):
+#     return sum(arr1) + sum(arr2)
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# def remove_exclamation_marks(s):
+#     return s.replace("!", "")
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# def hello(name=""):
+#     return f"Hello, {name.capitalize()}!" if name else "Hello, World!"
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# import random
+
+# class Ghost(object):
+#     def __init__(self):
+#         self.color = random.choice(["white", "yellow", "purple", "red"])
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# import math
+
+# def dating_range(age):
+#     if age <= 14:
+#         min_age = math.floor(age - 0.10 * age)
+#         max_age = math.floor(age + 0.10 * age)
+#     else:
+#         min_age = math.floor(age / 2 + 7)
+#         max_age = math.floor((age - 7) * 2)
+#     return f"{min_age}-{max_age}"
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# def add_extra(list_of_numbers):
+#     return list_of_numbers + [None]
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# def sum_array(a):
+#     return sum(a)
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# def move(position, roll):
+#     return position + roll * 2
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# def bool_to_word(boolean):
+#     return "Yes" if boolean == True else "No"
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# def simple_multiplication(number) :
+#     return number * 8 if number % 2 == 0 else number * 9
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# def sp_eng(sentence):
+#     return "english" in sentence.lower()
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# def alias_gen(f_name: str, l_name: str) -> str:
+#     first_letter = f_name[0].upper()
+#     last_letter = l_name[0].upper()
+
+#     if not first_letter.isalpha() or not last_letter.isalpha():
+#         return "Your name must start with a letter from A - Z."
+
+#     return f"{FIRST_NAME[first_letter]} {SURNAME[last_letter]}"
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
